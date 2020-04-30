@@ -38,11 +38,11 @@ public class BaseSetup {
         System.out.println("Appium Service Address : - "+ appiumServiceUrl);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("app", System.getProperty("user.dir")+"/zoho.apk");
+        capabilities.setCapability("app", System.getProperty("user.dir")+"/parkFinder.apk");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "Google Pixel");
         capabilities.setCapability("adbExecTimeout", "30000");
-        capabilities.setCapability("appActivity", "com.zoho.people.znew.HomeActivityNew");
+       // capabilities.setCapability("appActivity", "com.zoho.people.znew.HomeActivityNew");
         //capabilities.setCapability("appWaitActivity", "com.zoho.people.activities.LoaderActivity");
         capabilities.setCapability("noReset", "true");
 
