@@ -42,7 +42,7 @@ public class BaseSetup {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "Google Pixel");
         capabilities.setCapability("adbExecTimeout", "30000");
-       // capabilities.setCapability("appActivity", "com.zoho.people.znew.HomeActivityNew");
+        capabilities.setCapability("appActivity", "com.streetline.parker.ui.main.MainActivity");
         //capabilities.setCapability("appWaitActivity", "com.zoho.people.activities.LoaderActivity");
         capabilities.setCapability("noReset", "true");
 
